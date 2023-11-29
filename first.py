@@ -642,3 +642,10 @@ if(not os.path.exists("Tutorial Practice")):
 # result=reduce(sum,num)
 # print(result)
 
+# Creating of Virtul Environment
+# 1. To create  Virtual Env. Packagage ,we write (For Macos & Linux):
+#        create venv <filename>
+
+# 2. To activate the package ,so to perform further activities ,we do:
+#        source <filename>/bin/activate
+

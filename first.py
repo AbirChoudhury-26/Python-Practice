@@ -650,4 +650,4 @@ if(not os.path.exists("Tutorial Practice")):
 #        source <filename>/bin/activate
 
 # Creating Requirement file--> So that we can export all our dependencies to anyone without explicitly defining each of them
-   # 3. pip3 freeze >requirements.txt
+   # 3. pip3 freeze > requirements.txt

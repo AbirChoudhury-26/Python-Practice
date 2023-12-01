@@ -136,10 +136,3 @@ driver.get("https://nxtgenaiacademy.com/alertandpopup/")
 # # Accept the alert (you can use dismiss() to cancel the alert)
 #alert.accept()
 
-
-# Now set the cookie. This one's valid for the entire domain
-cookie = {'name' : 'foo', 'value' : 'bar'}
-driver.add_cookie(cookie)
-
-# And now output all the available cookies for the current URL
-driver.get_cookies()

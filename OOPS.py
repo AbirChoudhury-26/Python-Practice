@@ -316,68 +316,76 @@
 # MULTILEVEL Inheritance: Mutltiple child clss can be created one afte  another inheriting the properties of parent  class.
 # Hence ,this way the last child class can inherit the properties of the first parent class also
 
-class first:
-    def __init__(self,name,species):
-        self.name=name
-        self.species= species
+# class first:
+#     def __init__(self,name,species):
+#         self.name=name
+#         self.species= species
 
-    def show_details(self):
-        print(f"Name is : {self.name}")
-        print(f"Species is :{self.species}")
+#     def show_details(self):
+#         print(f"Name is : {self.name}")
+#         print(f"Species is :{self.species}")
 
-class second(first):
-    def __init__(self,name,breed):
-        first.__init__(self,name,species="Dog")
-        self.breed=breed
+# class second(first):
+#     def __init__(self,name,breed):
+#         first.__init__(self,name,species="Dog")
+#         self.breed=breed
 
-    def show_details(self):
-        first.show_details(self)
-        print(f"Breed of the species is : {self.breed}")
+#     def show_details(self):
+#         first.show_details(self)
+#         print(f"Breed of the species is : {self.breed}")
 
-class third(second):
-    def __init__(self,name,color):
-        second.__init__(self,name,breed="Doberman")
-        self.color=color
+# class third(second):
+#     def __init__(self,name,color):
+#         second.__init__(self,name,breed="Doberman")
+#         self.color=color
 
-    def show_details(self):
-        second.show_details(self)
-        print(f"Colour of the species is : {self.color}")
+#     def show_details(self):
+#         second.show_details(self)
+#         print(f"Colour of the species is : {self.color}")
 
 
-# th= third("Robin","Brown")
-# th.show_details()
+# # th= third("Robin","Brown")
+# # th.show_details()
 
-se=second("Hin","Black")
-se.show_details()
+# se=second("Hin","Black")
+# se.show_details()
 #POLYMORPHISM
 
-class Bird:
+# class Bird:
 
-	def intro(self):
-		print("There are many types of birds.")
+# 	def intro(self):
+# 		print("There are many types of birds.")
 
-	def flight(self):
-		print("Most of the birds can fly but some cannot.")
+# 	def flight(self):
+# 		print("Most of the birds can fly but some cannot.")
 
-class sparrow(Bird):
+# class sparrow(Bird):
 
-	def flight(self):
-		print("Sparrows can fly.")
+# 	def flight(self):
+# 		print("Sparrows can fly.")
 
-class ostrich(Bird):
+# class ostrich(Bird):
 
-	def flight(self):
-		print("Ostriches cannot fly.")
+# 	def flight(self):
+# 		print("Ostriches cannot fly.")
 
-obj_bird = Bird()
-obj_spr = sparrow()
-obj_ost = ostrich()
+# obj_bird = Bird()
+# obj_spr = sparrow()
+# obj_ost = ostrich()
 
-obj_bird.intro()
-obj_bird.flight()
+# obj_bird.intro()
+# obj_bird.flight()
 
-obj_spr.intro()
-obj_spr.flight()
+# obj_spr.intro()
+# obj_spr.flight()
 
-obj_ost.intro()
-obj_ost.flight()
+# obj_ost.intro()
+# obj_ost.flight()
+
+# Walrus operator: Assignment expression as values to any variiable as part of a larger expression
+
+foods= list()
+while(food:=input("Enter your food :"))!="quit":
+    foods.append(food)
+
+print(foods)

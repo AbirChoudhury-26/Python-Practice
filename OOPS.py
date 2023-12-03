@@ -408,3 +408,23 @@ response= requests.post(url,headers=headers,json=data)
 print(response.text)
 
  
+# Function Caching : It is a better way to store any previously used var or function also.It thus helps in saving a lot of time.
+
+from functools import lru_cache
+
+import time
+
+@lru_cache(maxsize=None)
+def fx(val):
+    time.sleep(5)
+    return val*100
+
+print(fx(2))
+print(fx(3))
+print(fx(5))
+
+#  The below part has the same variable and number ,hnec the caching already stored the value .So this time it doesnt req. func and irectly retuned the valued from cache stored
+print(fx(2))
+print(fx(3))
+print(fx(9))
+print(fx(5))

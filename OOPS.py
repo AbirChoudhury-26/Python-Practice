@@ -384,8 +384,27 @@
 
 # Walrus operator: Assignment expression as values to any variiable as part of a larger expression
 
-foods= list()
-while(food:=input("Enter your food :"))!="quit":
-    foods.append(food)
+# foods= list()
+# while(food:=input("Enter your food :"))!="quit":
+#     foods.append(food)
 
-print(foods)
+# print(foods)
+
+
+#REQUEST Module
+
+
+import requests
+url="https://jsonplaceholder.typicode.com/posts"
+
+headers= { 'Content-Type': 'application/json' }
+data={
+"title":"foo",
+"body":"bar",
+"userId":1,
+}
+
+response= requests.post(url,headers=headers,json=data)
+print(response.text)
+
+ 

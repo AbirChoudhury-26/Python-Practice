@@ -653,10 +653,10 @@ if(not os.path.exists("Tutorial Practice")):
 # Creating Requirement file--> So that we can export all our dependencies to anyone without explicitly defining each of them
    # 3. pip3 freeze > requirements.txt
 
-string = "My name is Abir "
+# string = "My name is Abir "
 
-y=string.split(" ")
+# y=string.split(" ")
 
-for word in y:
-    print(word)
-print(" ".join(y[::-1]))
+# for word in y:
+#     print(word)
+# print(" ".join(y[::-1]))

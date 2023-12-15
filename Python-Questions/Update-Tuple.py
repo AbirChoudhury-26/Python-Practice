@@ -12,7 +12,7 @@
 #  Updating tuple usinf for loop
 def updates_tuple(tup,newval):
     for i in range(len(tup)):
-        x,y,z=tup[i];
+        x,y,z=tup[i]
         tup[i]=(newval,y,z)
 
     return tup

@@ -13,7 +13,7 @@ print("Size of Set3: " + str(sys.getsizeof(Set3)) + "bytes")
 # 2nd Approach
 
 # Creating a set using string
-test_set = set("geEks")
+test_set = set("geeeeEkkkks")
 
 # Iterating using enumerated for loop
 for id,val in enumerate(test_set):

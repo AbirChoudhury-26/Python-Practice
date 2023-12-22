@@ -22,5 +22,4 @@ arr = [2, 3, 5, 4, 5, 2, 4, 3, 5, 2, 4, 4, 2 ]
 n = len(arr)
 print(getOddOccurrence(arr, n))
 
-# This code has been contributed by 
-# Smitha Dinesh Semwal
+

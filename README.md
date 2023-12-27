@@ -3,3 +3,4 @@
 ## In this Series ,Selenium+Python is practiced.
 ## Use of OOPs Concept .
 # Practicing Python Questions as well.
+# Pattern Printing Quesion like Diamond type are added.

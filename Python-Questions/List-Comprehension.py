@@ -21,6 +21,7 @@ matrix = [[j for j in range(3)] for i in range(3)]
 print(matrix)
 
 
+
 # Difference Bewteen For Loop &  List Comprehension
 
 # For Loop:
@@ -36,3 +37,20 @@ print(List)
 # Using list comprehension to iterate through loop 
 List = [character for character in 'Geeks 4 Geeks!']  
 print(List) 
+
+
+
+#Nested List Comprehensions
+#Nested List Comprehensions are nothing but a list comprehension within another list comprehension which is quite similar to nested for loops.
+
+matrix = [] 
+
+for i in range(3): 
+
+	# Append an empty sublist inside the list 
+	matrix.append([]) 
+
+	for j in range(5): 
+		matrix[i].append(j) 
+
+print(matrix) 

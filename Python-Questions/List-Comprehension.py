@@ -10,3 +10,29 @@ print(doubled)
 
 list = [i for i in range(11) if i % 2 == 0] 
 print(list)
+
+# Example-3:
+
+# Matrix using List Comprehension
+#In this example, we are assigning integers 0 to 2 to 3 rows of the matrix and printing it using List Comprehension.
+
+matrix = [[j for j in range(3)] for i in range(3)] 
+	
+print(matrix)
+
+
+# Difference Bewteen For Loop &  List Comprehension
+
+# For Loop:
+List = [] 
+for character in 'Geeks 4 Geeks!': 
+	List.append(character) 
+
+print(List) 
+
+
+# List Comprehension
+
+# Using list comprehension to iterate through loop 
+List = [character for character in 'Geeks 4 Geeks!']  
+print(List) 

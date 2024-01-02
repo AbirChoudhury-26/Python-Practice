@@ -54,3 +54,10 @@ for i in range(3):
 		matrix[i].append(j) 
 
 print(matrix) 
+
+# Lanbda function 
+
+# using lambda to print table of 10 
+numbers = list(map(lambda i: i*10, [i for i in range(1, 6)])) 
+
+print(numbers) 

@@ -61,3 +61,10 @@ print(matrix)
 numbers = list(map(lambda i: i*10, [i for i in range(1, 6)])) 
 
 print(numbers) 
+
+
+# Conditional Statements in List Comprehension
+
+lis = ["Even number" if i % 2 == 0
+	else "Odd number" for i in range(8)] 
+print(lis) 

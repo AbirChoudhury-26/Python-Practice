@@ -75,3 +75,10 @@ List = [string[::-1] for string in ('Geeks', 'for', 'Geeks')]
 
 # Display list 
 print(List) 
+
+
+# Nested if-else
+
+lis = [num for num in range(100) 
+	if num % 5 == 0 if num % 10 == 0] 
+print(lis)

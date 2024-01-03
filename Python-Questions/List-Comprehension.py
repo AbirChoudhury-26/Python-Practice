@@ -68,3 +68,10 @@ print(numbers)
 lis = ["Even number" if i % 2 == 0
 	else "Odd number" for i in range(8)] 
 print(lis) 
+
+
+# Reverse each string in tuple 
+List = [string[::-1] for string in ('Geeks', 'for', 'Geeks')] 
+
+# Display list 
+print(List) 

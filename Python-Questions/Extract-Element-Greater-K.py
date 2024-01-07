@@ -45,3 +45,30 @@ res = [ele for ele, cnt in Counter(test_list).items() if cnt > K]
 
 # printing results 
 print("The required elements : " + str(res))
+
+
+# Method-3
+
+test_list = [4, 6, 4, 3, 3, 4, 3, 4, 6, 6]
+k = 2
+unique_elems = []
+freq_dict = {}
+output = []
+
+# printing string
+print("The original list : " + str(test_list))
+
+for i in test_list:
+	# Append in the unique element list
+	if i not in unique_elems:
+		unique_elems.append(i)
+		freq_dict[i] = 1
+	else:
+		# increment the counter if element is duplicate
+		freq_dict[i] += 1
+
+	# Add in the output list only once
+	if freq_dict[i] == k + 1:
+		output.append(i)
+
+print('The required elements : ', str(output))

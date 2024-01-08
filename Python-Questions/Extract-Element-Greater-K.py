@@ -72,3 +72,28 @@ for i in test_list:
 		output.append(i)
 
 print('The required elements : ', str(output))
+
+# Method-4
+
+# Python3 code to demonstrate working of
+# Extract elements with Frequency greater than K
+import operator as op
+
+# initializing list
+test_list = [4, 6, 4, 3, 3, 4, 3, 7, 8, 8]
+
+# printing string
+print("The original list : " + str(test_list))
+
+# initializing K
+K = 2
+unique_elements = set(test_list)
+res = []
+for i in unique_elements:
+
+	# using operatorcountOf() to get count of elements
+	if op.countOf(test_list, i) > K:
+		res.append(i)
+
+# printing results
+print("The required elements : " + str(res))

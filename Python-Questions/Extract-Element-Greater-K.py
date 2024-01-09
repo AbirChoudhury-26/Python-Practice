@@ -107,4 +107,14 @@ K = 2
 freq_dict = Counter(test_list)
 res = list(filter(lambda ele: freq_dict[ele] > K, freq_dict))
 print("The required elements : " + str(res))
+
+
+# Method #6: Using filter() and lambda()
+from collections import Counter
+
+test_list = [4, 6, 4, 3, 3, 4, 3, 7, 8, 8]
+K = 2
+freq_dict = Counter(test_list)
+res = list(filter(lambda ele: freq_dict[ele] > K, freq_dict))
+print("The required elements : " + str(res))
 #This code is contributed By Vinay Pinjala.

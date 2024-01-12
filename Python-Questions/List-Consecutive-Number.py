@@ -21,5 +21,6 @@ is_consecutive = all(sorted_lst[i] == sorted_lst[i-1] + 1 for i in range(1, len(
 
 #print the result
 print(is_consecutive) # prints True
-#This code is contributed by Edula Vinay Kumar Reddy
+
+
 

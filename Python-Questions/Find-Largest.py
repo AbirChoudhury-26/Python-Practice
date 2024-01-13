@@ -22,7 +22,7 @@ print("Largest element is:", max(list1))
 # Python program to find largest
 # number in a list
 
-# Without ising Inbuilt Functions
+# Without using Inbuilt Functions
 
 def myMax(list1):
 
@@ -44,3 +44,29 @@ def myMax(list1):
 # Driver code
 list1 = [10, 20, 4, 45, 99]
 print("Largest element is:", myMax(list1))
+
+# using a Dictionary
+
+test_list = [4, 6, 4, 3, 3, 4, 3, 4, 6, 6]
+k = 2
+unique_elems = []
+freq_dict = {}
+output = []
+
+# printing string
+print("The original list : " + str(test_list))
+
+for i in test_list:
+	# Append in the unique element list
+	if i not in unique_elems:
+		unique_elems.append(i)
+		freq_dict[i] = 1
+	else:
+		# increment the counter if element is duplicate
+		freq_dict[i] += 1
+
+	# Add in the output list only once
+	if freq_dict[i] == k + 1:
+		output.append(i)
+
+print('The required elements : ', str(output))

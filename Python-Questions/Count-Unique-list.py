@@ -28,3 +28,9 @@ input_list = [1, 2, 2, 5, 8, 4, 4, 8]
 # creating a list with the keys
 items = Counter(input_list).keys()
 print("No of unique items in the list are:", len(items))
+
+input_list = [1, 2, 2, 5, 8, 4, 4, 8]
+
+# converting our list to filter list
+new_set = [ x for i, x in enumerate(input_list) if x not in input_list[:i]]
+print("No of unique items in the list are:", len(new_set))

@@ -22,3 +22,20 @@ def reverseArray(arr, k):
 arr=[1, 2, 3, 4, 5, 6]
 k = 4
 print(reverseArray(arr, k))
+
+
+import numpy as np
+
+# function to reverse array upto given position
+def reverseArrayUptoK(arr, k):
+	
+	# reverse subarray upto position k
+	arr[0:k] = np.flip(arr[0:k], axis=0)
+	
+	return arr
+
+# driver code
+if __name__ == "__main__":
+	arr = [1, 2, 3, 4, 5, 6]
+	k = 4
+	print(reverseArrayUptoK(arr, k))

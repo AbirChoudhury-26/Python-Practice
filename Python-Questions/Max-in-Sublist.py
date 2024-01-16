@@ -20,11 +20,11 @@
 # print(b)
 
 # Initialising List
-a = [[10, 13, 454, 66, 44], [10, 8, 7, 23]]
+# a = [[10, 13, 454, 66, 44], [10, 8, 7, 23]]
 
-# find max in list
-ans = list(map(max, a))
+# # find max in list
+# ans = list(map(max, a))
 
-# Printing max
-print(ans)
+# # Printing max
+# print(ans)
 

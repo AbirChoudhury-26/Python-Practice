@@ -47,3 +47,12 @@
 # First define a list of sublists a. Then, use the map() function to apply a lambda function to each sublist in a. The lambda function simply finds the maximum value in the sublist using the built-in max() function.
 #Finally, we convert the result of the map() function to a list using the list() function, and assign it to the variable lis. Finally, we print the resulting list of maximum values
 
+# define a list of sublists
+a = [[10, 13, 454, 66, 44], [10, 8, 7, 23]]
+
+# use the map function to apply a lambda function to each sublist in a
+lis = list(map(lambda x: max(x), a))
+
+# print the resulting list of maximum values
+print(lis)
+

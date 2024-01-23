@@ -1,4 +1,4 @@
-# A Python program to demonstrate inheritance
+# # A Python program to demonstrate inheritance
 class Person(object):
 
 # Constructor
@@ -17,8 +17,8 @@ emp.Display()
 
 class Emp(Person):
 
-def Print(self):
-	print("Emp class called")
+    def Print(self):
+	    print("Emp class called")
 	
 Emp_details = Emp("Mayank", 103)
 

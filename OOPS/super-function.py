@@ -1,3 +1,9 @@
+"""
+What is the super () method used for?
+A method from a parent class can be called in Python using the super() function. It’s typical practice in object-oriented programming to call the methods of the superclass and enable method overriding and inheritance.
+"""
+
+
 # parent class
 class Person():
     def __init__(self, name, age):

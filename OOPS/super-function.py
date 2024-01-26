@@ -63,10 +63,44 @@ A method from a parent class can be called in Python using the super() function.
 
 # Multiple Inheritance with Super
 
+# class Mammal():
+
+# 	def __init__(self, name):
+# 		print(name, "Is a mammal")
+
+# class canFly(Mammal):
+
+# 	def __init__(self, canFly_name):
+# 		print(canFly_name, "cannot fly")
+
+# 		# Calling Parent class
+# 		# Constructor
+# 		super().__init__(canFly_name)
+
+# class canSwim(Mammal):
+
+# 	def __init__(self, canSwim_name):
+
+# 		print(canSwim_name, "cannot swim")
+
+# 		super().__init__(canSwim_name)
+
+# class Animal(canFly, canSwim):
+
+# 	def __init__(self, name):
+# 		super().__init__(name)
+
+# # Driver Code
+# Carol = Animal("Dog")
+
+
+# MultiLevel Inheritance with Super
+
 class Mammal():
 
 	def __init__(self, name):
 		print(name, "Is a mammal")
+
 
 class canFly(Mammal):
 
@@ -77,7 +111,8 @@ class canFly(Mammal):
 		# Constructor
 		super().__init__(canFly_name)
 
-class canSwim(Mammal):
+
+class canSwim(canFly):
 
 	def __init__(self, canSwim_name):
 
@@ -85,11 +120,20 @@ class canSwim(Mammal):
 
 		super().__init__(canSwim_name)
 
-class Animal(canFly, canSwim):
+
+class Animal(canSwim):
 
 	def __init__(self, name):
+
+		# Calling the constructor
+		# of both the parent
+		# class in the order of
+		# their inheritance
 		super().__init__(name)
+
 
 # Driver Code
 Carol = Animal("Dog")
+
+
 

@@ -40,32 +40,59 @@
 # equivalent to "class Person(object)"
 
 
-class Person(object):
+# class Person(object):
 
-	# Constructor
-	def __init__(self, name):
-		self.name = name
+# 	# Constructor
+# 	def __init__(self, name):
+# 		self.name = name
 
-	# To get name
-	def getName(self):
-		return self.name
+# 	# To get name
+# 	def getName(self):
+# 		return self.name
 
-	# To check if this person is an employee
-	def isEmployee(self):
-		return False
-
-
-# Inherited or Subclass (Note Person in bracket)
-class Employee(Person):
-
-	# Here we return true
-	def isEmployee(self):
-		return True
+# 	# To check if this person is an employee
+# 	def isEmployee(self):
+# 		return False
 
 
-# Driver code
-emp = Person("Geek1") # An Object of Person
-print(emp.getName(), emp.isEmployee())
+# # Inherited or Subclass (Note Person in bracket)
+# class Employee(Person):
 
-emp = Employee("Geek2") # An Object of Employee
-print(emp.getName(), emp.isEmployee())
+# 	# Here we return true
+# 	def isEmployee(self):
+# 		return True
+
+
+# # Driver code
+# emp = Person("Geek1") # An Object of Person
+# print(emp.getName(), emp.isEmployee())
+
+# emp = Employee("Geek2") # An Object of Employee
+# print(emp.getName(), emp.isEmployee())
+
+
+# Super with Inheritance
+
+# parent class
+class Person():
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print(self.name, self.age)
+
+# child class
+class Student(Person):
+    def __init__(self, name, age):
+        self.sName = name
+        self.sAge = age
+        # inheriting the properties of parent class
+        super().__init__("Rahul", age)
+
+    def displayInfo(self):
+        print(self.sName, self.sAge)
+
+obj = Student("Mayank", 23)
+obj.display()
+obj.displayInfo()

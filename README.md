@@ -1,11 +1,11 @@
 ## This Series is added for Python Practice with general Topics like Arrays, Tuples, List,Dict,String Manipulation,Sets ,Use of Matrix Logics.
 
 ### * In this Series ,Selenium+Python is practiced.
- | **WebDriver Methods**  | **Selenium Use**
- |--------------------|----------------|
- | Row 1, Col 1 | Row 1, Col 2
- | Row 2, Col 1 | Row 2, Col 2
- | Row 3, Col 1 | Row 3, Col 2
+ | **WebDriver Functions**  | **Selenium Methods** | **Usage**
+ |--------------------|----------------|---------------|
+ | find_element | Use of Link-Text,Id,Name,Class | To find Elements from HTML DOM 
+ | Exceptions | Visibility ,Staleness,Invalid Selector | To wait for any element until a Specific Time.
+    
 
 ### * Use of OOPs Concept like:
 * **Encapsulation**

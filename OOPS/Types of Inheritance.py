@@ -120,29 +120,66 @@ In multilevel inheritance, features of the base class and the derived class are 
 
 
 # Base class
-class Parent:
+# class Parent:
+# 	def func1(self):
+# 		print("This function is in parent class.")
+
+# # Derived class1
+
+
+# class Child1(Parent):
+# 	def func2(self):
+# 		print("This function is in child 1.")
+
+# # Derivied class2
+
+
+# class Child2(Parent):
+# 	def func3(self):
+# 		print("This function is in child 2.")
+
+
+# # Driver's code
+# object1 = Child1()
+# object2 = Child2()
+# object1.func1()
+# object1.func2()
+# object2.func1()
+# object2.func3()
+
+
+# Hybrid Inheritance 
+
+"""
+Inheritance consisting of multiple types of inheritance is called hybrid inheritance.
+
+"""
+
+# Python program to demonstrate
+# hybrid inheritance
+
+
+class School:
 	def func1(self):
-		print("This function is in parent class.")
-
-# Derived class1
+		print("This function is in school.")
 
 
-class Child1(Parent):
+class Student1(School):
 	def func2(self):
-		print("This function is in child 1.")
-
-# Derivied class2
+		print("This function is in student 1. ")
 
 
-class Child2(Parent):
+class Student2(School):
 	def func3(self):
-		print("This function is in child 2.")
+		print("This function is in student 2.")
+
+
+class Student3(Student1, School):
+	def func4(self):
+		print("This function is in student 3.")
 
 
 # Driver's code
-object1 = Child1()
-object2 = Child2()
-object1.func1()
-object1.func2()
-object2.func1()
-object2.func3()
+object = Student3()
+object.func1()
+object.func2()

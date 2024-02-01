@@ -5,11 +5,11 @@
  |--------------------|----------------|---------------|
  | find_element | Use of Link-Text,Id,Name,Class | To find Elements from HTML DOM 
  | Exceptions | Visibility ,Staleness,Invalid Selector | To wait for any element until a Specific Time.
-    
+ | 
 
 ### * Use of OOPs Concept like:
 * **Encapsulation**
-* **Inheritance:** `Multiple,Multi-Level`
+* **Inheritance:** `Multiple,Multi-Level,Hybrid`
 * **Polymorphism**
 * **Super Functions**
  

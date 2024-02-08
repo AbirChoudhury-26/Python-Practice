@@ -14,3 +14,14 @@ n=11
 # space before of the stars.
 for i in range (n, 0, -1):
 	print((n-i) * ' ' + i * '*')
+
+
+# Recursive Method
+	
+def inverted_star_pattern_recursive(height):
+	if height > 0:
+		print("*" * height)
+		inverted_star_pattern_recursive(height - 1)
+
+height = 5
+inverted_star_pattern_recursive(height)

@@ -105,3 +105,25 @@ File_object = open(r"File_Name", "Access_Mode")
 # with open("myfile.txt", "r+") as file1:
 # 	# Reading form a file
 # 	print(file1.read())
+
+
+"""
+To write to a file in Python using a for statement, you can follow these steps:
+
+Open the file using the open() function with the appropriate mode (‘w’ for writing).
+Use the for statement to loop over the data you want to write to the file.
+Use the file object’s write() method to write the data to the file.
+Close the file using the file object’s close() method.
+
+"""
+
+# Open the file for writing
+# with open('file.txt', 'w') as f:
+# 	# Define the data to be written
+# 	data = ['This is the first line', 'This is the second line', 'This is the third line']
+# 	# Use a for loop to write each line of data to the file
+# 	for line in data:
+# 		f.write(line + '\n')
+# 		# Optionally, print the data as it is written to the file
+# 		print(line)
+# The file is automatically closed when the 'with' block ends

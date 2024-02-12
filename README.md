@@ -1,5 +1,6 @@
 ## This Series is added for Python Practice with general Topics like Arrays, Tuples, List,Dict,String Manipulation,Sets ,Use of Matrix Logics.
 
+### Searching and Sorting Like :Linear,Buuble etc are included
 ### * In this Series ,Selenium+Python is practiced.
  | **WebDriver Functions**  | **Selenium Methods** | **Usage**
  |--------------------|----------------|---------------|

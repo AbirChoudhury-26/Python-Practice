@@ -4,9 +4,10 @@
 ### * In this Series ,Selenium+Python is practiced.
  | **WebDriver Functions**  | **Selenium Methods** | **Usage**
  |--------------------|----------------|---------------|
- | find_element | Use of Link-Text,Id,Name,Class | To find Elements from HTML DOM 
- | Exceptions | Visibility ,Staleness,Invalid Selector | To wait for any element until a Specific Time.
- | 
+ | find_element | Use of Link-Text,Id,Name,Clas,XPath | To find Elements from HTML DOM 
+ | Exceptions |  ElementNotSelectableException |  Thrown when trying to select an unselectable element.
+                        NoSuchElementException         Thrown when element could not be found.
+ 
 
 ### * Use of OOPs Concept like:
 * **Encapsulation**

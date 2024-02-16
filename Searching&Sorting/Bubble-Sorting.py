@@ -1,4 +1,6 @@
-# Python program for implementation of Bubble Sort
+"""
+ Bubble Sort algorithm, which sorts an array by repeatedly comparing adjacent elements and swapping them if they are in the wrong order. The algorithm iterates through the array multiple times, with each pass pushing the largest unsorted element to its correct position at the end. The code includes an optimization: if no swaps are made during a pass, the array is already sorted, and the sorting process stops.
+"""
 
 def bubbleSort(arr):
 	n = len(arr)

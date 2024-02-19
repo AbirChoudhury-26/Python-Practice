@@ -15,7 +15,7 @@
  # Method- 2
 
 """
-Split Method-  First split the given string into words and store them in a variable s then using the if condition, check if a substring is present in the given string or not.
+Split Method-  First split the given string into words and store them in a variable  then using the if condition, check if a substring is present in the given string or not.
 """
 
 # input strings str1 and substr
@@ -31,3 +31,22 @@ if substring in s:
 	print("yes")
 else:
 	print("no")
+
+
+# Method-3
+	
+"""
+ Find Method-checks if a substring is present in the string, which is done in one line. find() function returns -1 if it is not found, else it returns the first occurrence
+"""
+
+def check(string, sub_str):
+	if (string.find(sub_str) == -1):
+		print("NO")
+	else:
+		print("YES")
+
+
+# driver code
+string = "geeks for geeks"
+sub_str = "geek"
+check(string, sub_str)

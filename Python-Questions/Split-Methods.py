@@ -26,3 +26,11 @@ print(word.split(', ', 4))
 
 # maxsplit: 1
 print(word.split(', ', 1))
+
+
+# String Parsing
+
+text = "Hello geek, Welcome to GeeksforGeeks."
+
+result = text.split()
+print(result)

@@ -76,3 +76,17 @@ print(["yes" if s2 in s else "no"])
 s="geeks for geeks"
 s2="geeks"
 print(["yes" if s2 in s else "no"])
+
+
+# Method-6
+
+" Operator Contains"
+
+import operator as op
+s="geeks for geeks"
+s2="geeks"
+if(op.contains(s,s2)):
+	print("yes")
+else:
+	print("no")
+

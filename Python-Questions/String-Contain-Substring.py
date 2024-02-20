@@ -60,3 +60,12 @@ any_string = "Geeks for Geeks substring "
 start = 0
 end = 1000
 print(any_string.index('substring', start, end))
+
+
+# Method-5 
+
+" List Comprehension"
+
+s="geeks for geeks"
+s2="geeks"
+print(["yes" if s2 in s else "no"])

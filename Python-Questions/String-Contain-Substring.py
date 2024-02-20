@@ -69,3 +69,10 @@ print(any_string.index('substring', start, end))
 s="geeks for geeks"
 s2="geeks"
 print(["yes" if s2 in s else "no"])
+
+
+""" String List Comprehension """
+
+s="geeks for geeks"
+s2="geeks"
+print(["yes" if s2 in s else "no"])

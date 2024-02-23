@@ -33,6 +33,13 @@ print(res)
 
 # Method-3
 
+"""
+1. Create an empty list named res to store the result.
+2. Use a for loop to iterate over each value in list1.
+3. Inside the for loop, create a tuple named tup that contains the current value from list1 and its cube (val**3).
+4. Append the tup tuple to the res list.
+5. After the for loop completes, print the res list that contains tuples with each value from list1 and its cube.
+"""
 
 # creating a list
 list1 = [1, 2, 5, 6]

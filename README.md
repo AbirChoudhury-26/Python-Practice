@@ -1,18 +1,38 @@
-## This Series is added for Python Practice with general Topics like Arrays, Tuples, List,Dict,String Manipulation,Sets ,Use of Matrix Logics.
+# This Series includes Python Concepts.
+**General Topics:** 
+ - Arrays
+ - Tuples 
+ - List
+ - Dictionary
+ - String Manipulation
+ - Sets , Matrix Logics etc.
 
-### Searching and Sorting Like :Linear,Buuble etc are included
-### * In this Series ,Selenium+Python is practiced.
+**Searching & Sorting:**
+ - Linear
+ - Buuble 
+ - Selection
+ - Insertion
+
+ **Pattern Printing Types:**
+ - Diamond & Half-Diamond
+ - Double Sided Star
+ - Inverted Star
+
+ **OOPs Concept:**
+ - Encapsulation
+ - Inheritance
+ - Polymorphism
+ - Super Functions
+ 
+### In this Series ,Selenium+Python is Practiced.
+
  | **WebDriver Functions**  | **Selenium Methods** | **Usage**
- |--------------------|----------------|---------------|
+ |--------------|----------------|--------------|
  | find_element | Use of Link-Text,Id,Name,Clas,XPath | To find Elements from HTML DOM 
- | Exceptions |  ElementNotSelectableException |  Thrown when trying to select an unselectable element.
-                        NoSuchElementException         Thrown when element could not be found.
+ | Exceptions   | ElementNotSelectableException       | Thrown when trying to select an unselectable element.
+ |              | NoSuchElementException              | Thrown when element couldn't be found
+ |              | ElementNotVisibleException          | Thrown when existing element in DOM has a feature set as hidden     
+ |              | ElementNotInteractableException     | Thrown when element is presented in DOM impossible to interact it.
  
 
-### * Use of OOPs Concept like:
-* **Encapsulation**
-* **Inheritance:** `Multiple,Multi-Level,Hybrid`
-* **Polymorphism**
-* **Super Functions**
- 
-### * Pattern Printing Quesion like Diamond ,Half-Diamond type are included.
+

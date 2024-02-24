@@ -21,3 +21,47 @@ res = test_list[K : None]
 
 # printing result 
 print ("The sliced list is : " + str(res))
+
+
+# Method-2
+
+""" Method #2 : Leaving the last element empty """
+
+# Python3 code to demonstrate 
+# list slicing from K to end
+# without specifying last element 
+
+# initializing list
+test_list = [5, 6, 2, 3, 9]
+
+# printing original list
+print ("The original list is : " + str(test_list))
+
+# index to begin slicing
+K = 2
+
+# without specifying last element 
+# to perform list slicing from K to end
+res = test_list[K :]
+
+# printing result 
+print ("The sliced list is : " + str(res))
+
+
+# Method-3
+
+""" Method #3 : Using itertools """
+
+from itertools import islice
+
+# Initialize the list
+test_list = [5, 6, 2, 3, 9]
+
+# Index to begin slicing
+K = 2
+
+# Use islice() to slice the list from the Kth element to the last element
+res = list(islice(test_list, K, None))
+
+print(res) # [2, 3, 9]
+#This code is contributed by Edula Vinay Kumar Reddy

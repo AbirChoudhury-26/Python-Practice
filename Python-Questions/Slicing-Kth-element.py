@@ -91,3 +91,35 @@ for i in range(K, len(test_list)):
 
 # printing result 
 print ("The sliced list is : " + str(res))
+
+
+# Method-5
+
+""" Using List Comprhension"""
+
+# Steps
+"""
+1. Initialize the input list and the index K
+2. Use list comprehension to slice the input list from index K to the end.
+3. Assign the sliced list to a variable ‘res’.
+4. Print the sliced list.
+"""
+# Python3 code to demonstrate 
+# list slicing from K to end
+# without specifying last element 
+
+# initializing list
+test_list = [5, 6, 2, 3, 9]
+
+# printing original list
+print ("The original list is : " + str(test_list))
+
+# index to begin slicing
+K = 2
+
+# using list comprehension to slice list from K to end
+res = [test_list[i] for i in range(K, len(test_list))]
+
+# printing result 
+print ("The sliced list is : " + str(res))
+

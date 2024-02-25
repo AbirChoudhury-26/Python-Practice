@@ -33,6 +33,9 @@
  |              | NoSuchElementException              | Thrown when element couldn't be found
  |              | ElementNotVisibleException          | Thrown when existing element in DOM has a feature set as hidden     
  |              | ElementNotInteractableException     | Thrown when element is presented in DOM impossible to interact it.
+ |              | ElementClickInterceptedException    | Thrown when element cant be completed as the element receiving the events.
+ |              | WebDriverException                  | Thrown when WebDriver is performing action right after browser is closed.
+ |              | TimeoutException                    | Thrown when there is not enough time for a command to be completed.
  
 
 

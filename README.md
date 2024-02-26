@@ -36,6 +36,10 @@
  |              | ElementClickInterceptedException    | Thrown when element cant be completed as the element receiving the events.
  |              | WebDriverException                  | Thrown when WebDriver is performing action right after browser is closed.
  |              | TimeoutException                    | Thrown when there is not enough time for a command to be completed.
+ | sendKeys()   | This method enters a value in to an Edit Box or Text box. | **Syntax:** driver.findElement(By.elementLocator(“value”)).sendkeys(“value”); 
+ | clear()      | It clears the Value from an Edit box or Text Box.         | **Syntax:** driverObject.findElement(By.locatorname(“value”)).clear();
+ | click()      | It clicks an Element (Button, Link, Checkbox) etc.        | **Syntax:** driverObject.findElement(By.ElementLocator(“LocatorValue”)).click();
+ | close()      | This command close the current browser window in focus.   | **Syntax:** driver.close();
  
 
 

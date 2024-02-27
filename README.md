@@ -40,6 +40,7 @@
  | clear()      | It clears the Value from an Edit box or Text Box.         | **Syntax:** driverObject.findElement(By.locatorname(“value”)).clear();
  | click()      | It clicks an Element (Button, Link, Checkbox) etc.        | **Syntax:** driverObject.findElement(By.ElementLocator(“LocatorValue”)).click();
  | close()      | This command close the current browser window in focus.   | **Syntax:** driver.close();
- 
+ | quit()       | This method closes all browser windows which are opened.Terminates the WebDriver session. |   
+    
 
 

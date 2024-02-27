@@ -90,7 +90,17 @@ print("The list after element removal is : "
 
 
 # Method-5 : Using Pop
+"""
+Approach:
 
+Define a list named test_list1 containing some elements.
+Print the initial list using the print() function.
+Assign the value 4 to the variable rmv_element. This value represents the element that we want to remove from the list.
+Use the if statement to check if the rmv_element is present in the list test_list1.
+If the element is present, use the pop() method to remove the first occurrence of the element from the list. The index() method is used to find the index of the element to be removed.
+Print the list after removal using the print() function. 
+
+"""
 
 # Python code to demonstrate
 # element removal in list

@@ -41,6 +41,6 @@
  | click()      | It clicks an Element (Button, Link, Checkbox) etc.        | **Syntax:** driverObject.findElement(By.ElementLocator(“LocatorValue”)).click();
  | close()      | This command close the current browser window in focus.   | **Syntax:** driver.close();
  | quit()       | This method closes all browser windows which are opened.Terminates the WebDriver session. |   
-    
-
+ | back()       | The back command instruct browser to redirect to previous webpage | **Syntax:** driver.navigate().back();
+ 
 

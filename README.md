@@ -40,7 +40,11 @@
  | clear()      | It clears the Value from an Edit box or Text Box.         | **Syntax:** driverObject.findElement(By.locatorname(“value”)).clear();
  | click()      | It clicks an Element (Button, Link, Checkbox) etc.        | **Syntax:** driverObject.findElement(By.ElementLocator(“LocatorValue”)).click();
  | close()      | This command close the current browser window in focus.   | **Syntax:** driver.close();
- | quit()       | This method closes all browser windows which are opened.Terminates the WebDriver session. |   
+ | quit()       | This method closes all browser windows which are opened.Terminates the WebDriver session. |   **Syntax:** driver.quit();
  | back()       | The back command instruct browser to redirect to previous webpage | **Syntax:** driver.navigate().back();
+ | Implicit wait| WebDriver waits until condition occurs before throwing exception | **Syntax:** driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+ | Explicit wait| WebDriver waits until a condition occurs after executing further | **Syntax:** WebDriverWait wait = new WebDriverWait(driver,30);
+
+
  
 

@@ -123,4 +123,25 @@ if rmv_element in test_list1:
 print("The list after element removal is : "
 	+ str(test_list1))
 
-# Added by Paras Jain(everythingispossible)
+
+# Method-6
+
+""" Using Recursion"""
+
+def remove_element(start, oldlist, newlist, element):
+	if start == len(oldlist):
+		return newlist # base condition
+	if oldlist[start] == element:
+		pass # checking if element is oldlist pass
+	else:
+		newlist.append(oldlist[start]) # appending oldlist element to new list
+	return remove_element(start+1, oldlist, newlist, element)
+
+
+# Driver code
+newlist = [1, 2, 3, 29, 2, 13, 421, 31]
+start = 0
+element = 2 # element want to remove
+print('The list Before removal: ', newlist)
+print('The list After removal: ', remove_element(start, newlist, [], element))
+

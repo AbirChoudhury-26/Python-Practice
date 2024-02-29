@@ -44,6 +44,9 @@
  | back()       | The back command instruct browser to redirect to previous webpage | **Syntax:** driver.navigate().back();
  | Implicit wait| WebDriver waits until condition occurs before throwing exception | **Syntax:** driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
  | Explicit wait| WebDriver waits until a condition occurs after executing further | **Syntax:** WebDriverWait wait = new WebDriverWait(driver,30);
+ | getAttribute() | The command helps to view the value type in a search text box. | **Syntax:** findElement(By.xpath(“XPATHVALUE")).getAttribute(“Attributevalue");
+ | isSelected() | The command helps to verify if they have been selected or not | **Sysntax:** element.isSelected();
+
 
 
  

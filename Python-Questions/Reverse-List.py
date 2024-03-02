@@ -77,6 +77,9 @@
 
 """Using List & Insert function"""
 
+
+""" We keep inserting items at the 0th index of the list, this will automatically reverse the list."""
+""" In list,insertion at 0th Index continuously will shift the other posn elements to 1 place right in list."""
 # input list
 lst = [10, 11, 12, 13, 14, 15]
 # the above input can also be given as

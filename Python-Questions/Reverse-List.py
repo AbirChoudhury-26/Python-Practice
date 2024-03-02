@@ -1,4 +1,6 @@
-# Reversing a list using slicing technique
+# Method-1
+
+"""Reversing a list using slicing technique"""
 def Reverse(lst):
     new_lst = lst[::-1]
     return new_lst
@@ -7,7 +9,9 @@ def Reverse(lst):
 lst = [10, 11, 12, 13, 14, 15]
 print(Reverse(lst))
 
+# Method-2
 
+"""  Reverse List by Swapping"""
 #Python program to reverse an array
 def list_reverse(arr,size):
 
@@ -39,4 +43,32 @@ size=5
 print('Original list: ',arr)
 print("Reversed list: ",list_reverse(arr,size))
 
-#This contributed by SR.Dhanush
+# Method-3
+
+"""  Reverse List Using the Reversed() and Reverse() Built-In Function"""
+lst = [10, 11, 12, 13, 14, 15]
+lst.reverse()
+print("Using reverse() ", lst)
+
+print("Using reversed() ", list(reversed(lst)))
+
+# Method-4
+
+"""Using 2-Pointer Approach"""
+
+# Reversing a list using two-pointer approach
+def reverse_list(arr):
+	left = 0
+	right = len(arr)-1
+	while (left < right):
+		# Swap
+		temp = arr[left]
+		arr[left] = arr[right]
+		arr[right] = temp
+		left += 1
+		right -= 1
+
+	return arr
+
+arr = [1, 2, 3, 4, 5, 6, 7]
+print(reverse_list(arr))
